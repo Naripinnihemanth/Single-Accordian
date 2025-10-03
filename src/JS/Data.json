@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of India?",
+    "answer": "New Delhi"
+  },
+  {
+    "id": 2,
+    "question": "Who is known as the father of computers?",
+    "answer": "Charles Babbage"
+  },
+  {
+    "id": 3,
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au"
+  },
+  {
+    "id": 4,
+    "question": "Which planet is known as the Red Planet?",
+    "answer": "Mars"
+  },
+  {
+    "id": 5,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": 6,
+    "question": "What is the largest mammal in the world?",
+    "answer": "Blue Whale"
+  },
+  {
+    "id": 7,
+    "question": "Which is the smallest prime number?",
+    "answer": "2"
+  },
+  {
+    "id": 8,
+    "question": "In which year did World War II end?",
+    "answer": "1945"
+  },
+  {
+    "id": 9,
+    "question": "What is the process of plants making their food called?",
+    "answer": "Photosynthesis"
+  },
+  {
+    "id": 10,
+    "question": "Which device is used to measure temperature?",
+    "answer": "Thermometer"
+  }
+]

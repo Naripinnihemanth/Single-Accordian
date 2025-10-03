@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4cdcd;
+  gap: 20px;
+  padding: 10px;
+}
+.item {
+  width: 50%;
+  height: auto;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px 10px white, -5px -5px 10px black, 4px 4px 10px white inset,
+    -4px -4px 15px black inset;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selected {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}

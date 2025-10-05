@@ -12,7 +12,6 @@
 .item {
   width: 50%;
   height: auto;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   gap: 5px;

@@ -6,14 +6,12 @@ function Accordian() {
   const [selected, setSelected] = useState(null);
   const [togg, setTogg] = useState(false);
   function handleSelected(selectedId) {
-    setTogg(!togg);
     setSelected(selectedId);
     console.log(selected);
   }
   useEffect(() => {
     setD(Data);
   }, []);
-  console.log(d);
   return (
     <>
       <div className="wrapper container">
@@ -22,7 +20,10 @@ function Accordian() {
             <div
               className="item"
               key={i.id}
-              onClick={() => handleSelected(i.id)}
+              onClick={() => {
+                handleSelected(i.id);
+                selected == i.id ? setTogg(!togg) : setTogg(true);
+              }}
             >
               <div className="title">
                 <h5>{i.question}</h5>

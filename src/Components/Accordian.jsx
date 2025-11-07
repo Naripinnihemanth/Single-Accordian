@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Data from "../JS/Data.json";
-import "../CSS/Accordian.css";
+import Data from "./Data.json";
+import "./Accordian.css";
 function Accordian() {
   const [d, setD] = useState([]);
   const [selected, setSelected] = useState(null);
